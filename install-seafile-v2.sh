@@ -4,7 +4,7 @@ set -e
 
 echo "🔧 Installing prerequisites..."
 sudo apt update
-sudo apt install -y git curl jq
+sudo apt install -y git curl jq nfs-common s3cmd
 
 # --- Install Docker ---
 if ! command -v docker &> /dev/null; then
