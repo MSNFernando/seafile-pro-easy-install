@@ -1,0 +1,1320 @@
+{
+    "locationId": "68b5a1d3-5152-4c1e-afd3-7d3385fb1e44",
+    "address": {
+        "locationId": "68b5a1d3-5152-4c1e-afd3-7d3385fb1e44",
+        "coreLogicTui": "1001687675",
+        "addressText": "101 LIARDET STREET, NEW PLYMOUTH, NEW PLYMOUTH 4310",
+        "floor": null,
+        "buildingName": null,
+        "flatNumber": null,
+        "streetNumber": "101",
+        "streetNumberSubDescription": null,
+        "streetName": "LIARDET",
+        "streetType": "STREET",
+        "streetDirection": null,
+        "suburb": "NEW PLYMOUTH",
+        "city": "NEW PLYMOUTH",
+        "postCode": "4310",
+        "ufbRegion": "New Plymouth"
+    },
+    "propertySummary": null,
+    "coreServices": [
+        {
+            "coreServiceKey": "Bundle",
+            "coreProducts": [
+                {
+                    "coreProductKey": "UFF1000/500_SIPONT",
+                    "coreProductDescription": "OnNet Voice over UFF UFB 1000/500Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB1000/500",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 884,
+                        "averageSpeedUpMbps": 494,
+                        "averageSpeedSource": "MBNZ Report June 2025"
+                    },
+                    "coreProductVoiceCategory": "SIPONT",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF1000/500_SIPONT_U",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Fibre Max/500 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 78.90,
+                                            "chargeIncludingGst": 90.73500000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Residential",
+                                    "serviceType": "UFF_SipOnt_1000-500",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                },
+                                {
+                                    "planKey": "OneComet_access_UFF1000/500_SIPONT_Bus_U",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Business Fibre Max/500 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 96.45,
+                                            "chargeIncludingGst": 110.91750000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Business",
+                                    "serviceType": "UFF_SipOnt_1000-500",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_SIPONT_voice_features",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Voice : features",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 5.00,
+                                            "chargeIncludingGst": 5.75000000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": null,
+                                    "dataRollover": null,
+                                    "minimumContractTerm": 0,
+                                    "segment": null,
+                                    "serviceType": null,
+                                    "defaultIpHandling": null,
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coreProductKey": "UFF100/20_SIPONT",
+                    "coreProductDescription": "OnNet Voice over UFF UFB 100/20Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB100/20",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 100,
+                        "averageSpeedUpMbps": 20,
+                        "averageSpeedSource": "Internal"
+                    },
+                    "coreProductVoiceCategory": "SIPONT",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF100/20_SIPONT_U",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Fibre 100/20 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 50.00,
+                                            "chargeIncludingGst": 57.50000000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Residential",
+                                    "serviceType": "UFF_SipOnt_100-20",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_SIPONT_voice_features",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Voice : features",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 5.00,
+                                            "chargeIncludingGst": 5.75000000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": null,
+                                    "dataRollover": null,
+                                    "minimumContractTerm": 0,
+                                    "segment": null,
+                                    "serviceType": null,
+                                    "defaultIpHandling": null,
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coreProductKey": "UFF300/300_SIPONT",
+                    "coreProductDescription": "OnNet Voice over UFB 300/300Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB300/300",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 300,
+                        "averageSpeedUpMbps": 300,
+                        "averageSpeedSource": "Internal"
+                    },
+                    "coreProductVoiceCategory": "SIPONT",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF300/300_SIPONT_Bus_U",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Business Fibre 300/300 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 78.90,
+                                            "chargeIncludingGst": 90.73500000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Business",
+                                    "serviceType": "UFF_SipOnt_300-300",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_SIPONT_voice_features",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Voice : features",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 5.00,
+                                            "chargeIncludingGst": 5.75000000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": null,
+                                    "dataRollover": null,
+                                    "minimumContractTerm": 0,
+                                    "segment": null,
+                                    "serviceType": null,
+                                    "defaultIpHandling": null,
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coreProductKey": "UFF500/500_SIPONT",
+                    "coreProductDescription": "OnNet Voice over UFB 500/500Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB500/500",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 500,
+                        "averageSpeedUpMbps": 500,
+                        "averageSpeedSource": "Internal"
+                    },
+                    "coreProductVoiceCategory": "SIPONT",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF500/500_SIPONT_Bus_U",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Business Fibre 500/500 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 91.42,
+                                            "chargeIncludingGst": 105.13300000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Business",
+                                    "serviceType": "UFF_SipOnt_500-500",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_SIPONT_voice_features",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Voice : features",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 5.00,
+                                            "chargeIncludingGst": 5.75000000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": null,
+                                    "dataRollover": null,
+                                    "minimumContractTerm": 0,
+                                    "segment": null,
+                                    "serviceType": null,
+                                    "defaultIpHandling": null,
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coreProductKey": "UFF500/100_SIPONT",
+                    "coreProductDescription": "OnNet Voice over UFB 500/100Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB500/100",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 500,
+                        "averageSpeedUpMbps": 100,
+                        "averageSpeedSource": "Internal"
+                    },
+                    "coreProductVoiceCategory": "SIPONT",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF500/100_SIPONT_U",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Fibre 500/100 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 67.62,
+                                            "chargeIncludingGst": 77.76300000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Residential",
+                                    "serviceType": "UFF_SipOnt_500-100",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_SIPONT_voice_features",
+                                    "planCategory": null,
+                                    "planDescription": "Bundled Voice : features",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 5.00,
+                                            "chargeIncludingGst": 5.75000000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": null,
+                                    "dataRollover": null,
+                                    "minimumContractTerm": 0,
+                                    "segment": null,
+                                    "serviceType": null,
+                                    "defaultIpHandling": null,
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "coreServiceKey": "Naked",
+            "coreProducts": [
+                {
+                    "coreProductKey": "UFF1000/500",
+                    "coreProductDescription": "Naked UFF UFB 1000/500Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB1000/500",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 884,
+                        "averageSpeedUpMbps": 494,
+                        "averageSpeedSource": "MBNZ Report June 2025"
+                    },
+                    "coreProductVoiceCategory": "NoVoice",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF1000/500_U",
+                                    "planCategory": null,
+                                    "planDescription": "Naked Fibre Max/500 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 78.90,
+                                            "chargeIncludingGst": 90.73500000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Residential",
+                                    "serviceType": "UFF_Naked_1000-500",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                },
+                                {
+                                    "planKey": "OneComet_access_UFF1000/500_Bus_U",
+                                    "planCategory": null,
+                                    "planDescription": "Naked Business Fibre Max/500 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 96.45,
+                                            "chargeIncludingGst": 110.91750000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Business",
+                                    "serviceType": "UFF_Naked_1000-500",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": []
+                        }
+                    ]
+                },
+                {
+                    "coreProductKey": "UFF100/20",
+                    "coreProductDescription": "Naked  UFF UFB 100/20Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB100/20",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 100,
+                        "averageSpeedUpMbps": 20,
+                        "averageSpeedSource": "Internal"
+                    },
+                    "coreProductVoiceCategory": "NoVoice",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF100/20_U",
+                                    "planCategory": null,
+                                    "planDescription": "Naked Fibre 100/20 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 50.00,
+                                            "chargeIncludingGst": 57.50000000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Residential",
+                                    "serviceType": "UFF_Naked_100-20",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": []
+                        }
+                    ]
+                },
+                {
+                    "coreProductKey": "UFF300/300",
+                    "coreProductDescription": "Naked UFB 300/300Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB300/300",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 300,
+                        "averageSpeedUpMbps": 300,
+                        "averageSpeedSource": "Internal"
+                    },
+                    "coreProductVoiceCategory": "NoVoice",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF300/300_Bus_U",
+                                    "planCategory": null,
+                                    "planDescription": "Naked Business Fibre 300/300 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 78.90,
+                                            "chargeIncludingGst": 90.73500000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Business",
+                                    "serviceType": "UFF_Naked_300-300",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": []
+                        }
+                    ]
+                },
+                {
+                    "coreProductKey": "UFF500/500",
+                    "coreProductDescription": "Naked UFB 500/500Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB500/500",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 500,
+                        "averageSpeedUpMbps": 500,
+                        "averageSpeedSource": "Internal"
+                    },
+                    "coreProductVoiceCategory": "NoVoice",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF500/500_Bus_U",
+                                    "planCategory": null,
+                                    "planDescription": "Naked Business Fibre 500/500 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 91.42,
+                                            "chargeIncludingGst": 105.13300000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Business",
+                                    "serviceType": "UFF_Naked_500-500",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": []
+                        }
+                    ]
+                },
+                {
+                    "coreProductKey": "UFF500/100",
+                    "coreProductDescription": "Naked UFB 500/100Mbps Broadband",
+                    "coreProductBroadbandCategory": "UFB500/100",
+                    "coreProductBroadbandSupplyProvider": "UFF",
+                    "coreProductBroadbandCategoryGroup": "UFB",
+                    "coreProductBroadbandProductType": "Primary",
+                    "coreProductBroadbandAverageSpeeds": {
+                        "averageSpeedDownMbps": 500,
+                        "averageSpeedUpMbps": 100,
+                        "averageSpeedSource": "Internal"
+                    },
+                    "coreProductVoiceCategory": "NoVoice",
+                    "coreProductCharges": [],
+                    "coreProductComponents": [
+                        {
+                            "coreProductComponentService": "Internet",
+                            "coreProductComponentPlans": [
+                                {
+                                    "planKey": "OneComet_access_UFF500/100_U",
+                                    "planCategory": null,
+                                    "planDescription": "Naked Fibre 500/100 (UFF)",
+                                    "charges": [
+                                        {
+                                            "chargeExcludingGst": 67.62,
+                                            "chargeIncludingGst": 77.76300000,
+                                            "billFrequency": "Monthly",
+                                            "unit": "Month"
+                                        }
+                                    ],
+                                    "dataCap": null,
+                                    "dataBanking": false,
+                                    "dataRollover": false,
+                                    "minimumContractTerm": 0,
+                                    "segment": "Residential",
+                                    "serviceType": "UFF_Naked_500-100",
+                                    "defaultIpHandling": "PublicIp",
+                                    "backhaulRealm": null,
+                                    "hasUnlimitedData": false,
+                                    "dataMbLimit": null,
+                                    "hasUnlimitedMinutes": false,
+                                    "minutesLimit": null,
+                                    "hasUnlimitedText": false,
+                                    "textLimit": null,
+                                    "marketingDetails": null
+                                }
+                            ]
+                        },
+                        {
+                            "coreProductComponentService": "Voice",
+                            "coreProductComponentPlans": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "additionalProducts": [
+        {
+            "additionalProductService": "static_ip",
+            "additionalProductName": "Static IP",
+            "serviceRestricted": true,
+            "supportedServices": [
+                "Internet"
+            ],
+            "additionalProductPlans": [
+                {
+                    "planKey": "OneComet_Static_IP",
+                    "planDescription": "Static IP",
+                    "charges": [
+                        {
+                            "chargeExcludingGst": 5.00,
+                            "chargeIncludingGst": 5.75000000,
+                            "billFrequency": "Monthly",
+                            "unit": "Month"
+                        }
+                    ],
+                    "freeSecondsPerCall": null,
+                    "freeSecondsPerPeriod": null,
+                    "destinations": [],
+                    "wifiRecommendations": [],
+                    "dataCap": null,
+                    "minutesLimit": null,
+                    "textLimit": null,
+                    "groupTag": null,
+                    "isGroupLeader": false,
+                    "maxGroupMemberCount": null,
+                    "dataCategory": null,
+                    "isGroupMember": false,
+                    "isStandalone": true,
+                    "minimumContractTerm": 0,
+                    "planDuration": null,
+                    "dataCapDescription": null,
+                    "callingMinsDescription": null,
+                    "textsDescription": null,
+                    "additionalDescriptions": [],
+                    "supportedPlanKeys": [],
+                    "marketingDetails": null,
+                    "companionTag": null,
+                    "supportedCompanionTags": null
+                }
+            ]
+        },
+        {
+            "additionalProductService": "callingpackmobile",
+            "additionalProductName": "AU National and Mobile Unlimited",
+            "serviceRestricted": true,
+            "supportedServices": [
+                "ata_pots_rental",
+                "fibrevoice_rental",
+                "voice"
+            ],
+            "additionalProductPlans": [
+                {
+                    "planKey": "OneComet_callingpack_AusNatMob_U",
+                    "planDescription": "AU National and Mobile Unlimited",
+                    "charges": [
+                        {
+                            "chargeExcludingGst": 7.50,
+                            "chargeIncludingGst": 8.62500000,
+                            "billFrequency": "Monthly",
+                            "unit": "Month"
+                        }
+                    ],
+                    "freeSecondsPerCall": 2147483647,
+                    "freeSecondsPerPeriod": 2147483647,
+                    "destinations": [
+                        {
+                            "callingType": "International",
+                            "country": "Australia"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Australia Mobile"
+                        }
+                    ],
+                    "wifiRecommendations": [],
+                    "dataCap": null,
+                    "minutesLimit": null,
+                    "textLimit": null,
+                    "groupTag": null,
+                    "isGroupLeader": false,
+                    "maxGroupMemberCount": null,
+                    "dataCategory": null,
+                    "isGroupMember": false,
+                    "isStandalone": true,
+                    "minimumContractTerm": 0,
+                    "planDuration": null,
+                    "dataCapDescription": null,
+                    "callingMinsDescription": null,
+                    "textsDescription": null,
+                    "additionalDescriptions": [],
+                    "supportedPlanKeys": [],
+                    "marketingDetails": null,
+                    "companionTag": null,
+                    "supportedCompanionTags": null
+                }
+            ]
+        },
+        {
+            "additionalProductService": "callingpack",
+            "additionalProductName": "Top 10 International",
+            "serviceRestricted": true,
+            "supportedServices": [
+                "ata_pots_rental",
+                "fibrevoice_rental",
+                "voice"
+            ],
+            "additionalProductPlans": [
+                {
+                    "planKey": "OneComet_callingpack_IntTop10",
+                    "planDescription": "Top 10 International",
+                    "charges": [
+                        {
+                            "chargeExcludingGst": 10.00,
+                            "chargeIncludingGst": 11.50000000,
+                            "billFrequency": "Monthly",
+                            "unit": "Month"
+                        }
+                    ],
+                    "freeSecondsPerCall": 2147483647,
+                    "freeSecondsPerPeriod": 2147483647,
+                    "destinations": [
+                        {
+                            "callingType": "International",
+                            "country": "Canada"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Canada Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "China"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "China Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Hong Kong"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Hong Kong Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "India"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "India Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Ireland (Republic)"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Ireland (Republic) Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Korea (Sth)"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Korea (Sth) Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Singapore"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Singapore Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "South Africa"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "South Africa Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "United Kingdom"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "United Kingdom Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "USA"
+                        }
+                    ],
+                    "wifiRecommendations": [],
+                    "dataCap": null,
+                    "minutesLimit": null,
+                    "textLimit": null,
+                    "groupTag": null,
+                    "isGroupLeader": false,
+                    "maxGroupMemberCount": null,
+                    "dataCategory": null,
+                    "isGroupMember": false,
+                    "isStandalone": true,
+                    "minimumContractTerm": 0,
+                    "planDuration": null,
+                    "dataCapDescription": null,
+                    "callingMinsDescription": null,
+                    "textsDescription": null,
+                    "additionalDescriptions": [],
+                    "supportedPlanKeys": [],
+                    "marketingDetails": null,
+                    "companionTag": null,
+                    "supportedCompanionTags": null
+                }
+            ]
+        },
+        {
+            "additionalProductService": "callingpack",
+            "additionalProductName": "Top 20 International",
+            "serviceRestricted": true,
+            "supportedServices": [
+                "ata_pots_rental",
+                "fibrevoice_rental",
+                "voice"
+            ],
+            "additionalProductPlans": [
+                {
+                    "planKey": "OneComet_callingpack_IntTop20",
+                    "planDescription": "Top 20 International",
+                    "charges": [
+                        {
+                            "chargeExcludingGst": 15.00,
+                            "chargeIncludingGst": 17.25000000,
+                            "billFrequency": "Monthly",
+                            "unit": "Month"
+                        }
+                    ],
+                    "freeSecondsPerCall": 2147483647,
+                    "freeSecondsPerPeriod": 2147483647,
+                    "destinations": [
+                        {
+                            "callingType": "International",
+                            "country": "Canada"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Canada Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "China"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "China Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "France"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "France Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Germany"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Germany Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Hong Kong"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Hong Kong Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "India"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "India Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Ireland (Republic)"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Ireland (Republic) Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Japan"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Japan Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Korea (Sth)"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Korea (Sth) Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Malaysia"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Malaysia Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Netherlands"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Netherlands Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Russia"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Russia Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Singapore"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Singapore Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "South Africa"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "South Africa Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Sweden"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Sweden Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Switzerland"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Switzerland Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Taiwan"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Taiwan Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Thailand"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "Thailand Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "United Kingdom"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "United Kingdom Mobile"
+                        },
+                        {
+                            "callingType": "International",
+                            "country": "USA"
+                        }
+                    ],
+                    "wifiRecommendations": [],
+                    "dataCap": null,
+                    "minutesLimit": null,
+                    "textLimit": null,
+                    "groupTag": null,
+                    "isGroupLeader": false,
+                    "maxGroupMemberCount": null,
+                    "dataCategory": null,
+                    "isGroupMember": false,
+                    "isStandalone": true,
+                    "minimumContractTerm": 0,
+                    "planDuration": null,
+                    "dataCapDescription": null,
+                    "callingMinsDescription": null,
+                    "textsDescription": null,
+                    "additionalDescriptions": [],
+                    "supportedPlanKeys": [],
+                    "marketingDetails": null,
+                    "companionTag": null,
+                    "supportedCompanionTags": null
+                }
+            ]
+        },
+        {
+            "additionalProductService": "callingpacklocal",
+            "additionalProductName": "NZ National and Mobile Unlimited",
+            "serviceRestricted": true,
+            "supportedServices": [
+                "ata_pots_rental",
+                "fibrevoice_rental",
+                "voice"
+            ],
+            "additionalProductPlans": [
+                {
+                    "planKey": "OneComet_callingpack_NZNatMob_U",
+                    "planDescription": "NZ National and Mobile Unlimited",
+                    "charges": [
+                        {
+                            "chargeExcludingGst": 7.50,
+                            "chargeIncludingGst": 8.62500000,
+                            "billFrequency": "Monthly",
+                            "unit": "Month"
+                        }
+                    ],
+                    "freeSecondsPerCall": 2147483647,
+                    "freeSecondsPerPeriod": 2147483647,
+                    "destinations": [
+                        {
+                            "callingType": "Mobile",
+                            "country": "New Zealand"
+                        },
+                        {
+                            "callingType": "National",
+                            "country": "New Zealand"
+                        }
+                    ],
+                    "wifiRecommendations": [],
+                    "dataCap": null,
+                    "minutesLimit": null,
+                    "textLimit": null,
+                    "groupTag": null,
+                    "isGroupLeader": false,
+                    "maxGroupMemberCount": null,
+                    "dataCategory": null,
+                    "isGroupMember": false,
+                    "isStandalone": true,
+                    "minimumContractTerm": 0,
+                    "planDuration": null,
+                    "dataCapDescription": null,
+                    "callingMinsDescription": null,
+                    "textsDescription": null,
+                    "additionalDescriptions": [],
+                    "supportedPlanKeys": [],
+                    "marketingDetails": null,
+                    "companionTag": null,
+                    "supportedCompanionTags": null
+                }
+            ]
+        }
+    ],
+    "hardwareProducts": [],
+    "fibreSummary": {
+        "fibreAvailable": true,
+        "fibreInstalled": false,
+        "fibreActive": false,
+        "consentRequired": false,
+        "consentStatus": "NotRequired",
+        "rightOfWay": false,
+        "buildingType": "SingleDwellingUnit",
+        "fibreEta": null,
+        "fibreInADay": false,
+        "ufbRegion": "New Plymouth"
+    },
+    "fibreDetails": {
+        "chorusNGA": {
+            "fibreAvailable": false,
+            "fibreInstalled": false,
+            "fibreActive": false,
+            "onts": [],
+            "scorecard": {
+                "supports2Gbps": false,
+                "supports4Gbps": false,
+                "supports8Gbps": false
+            }
+        },
+        "enable": {
+            "fibreAvailable": false,
+            "fibreInstalled": false,
+            "fibreActive": false,
+            "onts": [],
+            "scorecard": {
+                "supports2Gbps": false,
+                "supports4Gbps": false,
+                "supports8Gbps": false
+            }
+        },
+        "northpower": {
+            "fibreAvailable": false,
+            "fibreInstalled": false,
+            "fibreActive": false,
+            "onts": [],
+            "scorecard": {
+                "supports2Gbps": false,
+                "supports4Gbps": false,
+                "supports8Gbps": false
+            }
+        },
+        "uff": {
+            "fibreAvailable": true,
+            "fibreInstalled": false,
+            "fibreActive": false,
+            "onts": [],
+            "scorecard": {
+                "supports2Gbps": true,
+                "supports4Gbps": true,
+                "supports8Gbps": false
+            }
+        }
+    }
+}
